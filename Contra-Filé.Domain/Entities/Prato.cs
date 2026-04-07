@@ -1,9 +1,11 @@
 ﻿using Contra_Filé.Domain.Common;
 
-namespace Contra_Filé.Domain;
+namespace Contra_Filé.Domain.Entities;
 
 public class Prato : BaseEntity
 {
+    private Prato() { }
+    
     public string Name { get; set; } = string.Empty;
     public decimal Price { get; set; }
     

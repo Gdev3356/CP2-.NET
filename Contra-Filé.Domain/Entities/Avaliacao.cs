@@ -1,9 +1,11 @@
 ﻿using Contra_Filé.Domain.Common;
 
-namespace Contra_Filé.Domain;
+namespace Contra_Filé.Domain.Entities;
 
 public class Avaliacao : BaseEntity
 {
+    private Avaliacao() { }
+    
     public Guid AvaliacaoId { get; private set; }
     
     public Guid UserId { get; private set; }

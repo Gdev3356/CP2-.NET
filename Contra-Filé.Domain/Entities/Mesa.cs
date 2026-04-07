@@ -1,6 +1,6 @@
 ﻿using Contra_Filé.Domain.Common;
 
-namespace Contra_Filé.Domain;
+namespace Contra_Filé.Domain.Entities;
 
 public class Mesa : BaseEntity
 {
@@ -8,13 +8,14 @@ public class Mesa : BaseEntity
     
     public bool IsOccupied { get; private set; }
     
-    public List<Pedido> Pedidos { get; private set; }
+    public List<Pedido> Pedidos { get; private set; } = [];
 
-    public Mesa(int number, bool isOccupied, List<Pedido> pedidos)
+    private Mesa() { }
+
+    public Mesa(int number, bool isOccupied)
     {
         UpdateNumber(number); 
         IsOccupied = isOccupied;
-        Pedidos = pedidos;
     }
 
     public void UpdateNumber(int number)

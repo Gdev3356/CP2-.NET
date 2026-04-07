@@ -1,9 +1,11 @@
 ﻿using Contra_Filé.Domain.Common;
 
-namespace Contra_Filé.Domain;
+namespace Contra_Filé.Domain.Entities;
 
 public class Pedido : BaseEntity
 {
+    private Pedido() { }
+    
     public decimal TotalValue { get; private set; }
     
     public Guid MesaId { get; private set; }

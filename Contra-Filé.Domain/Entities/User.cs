@@ -1,10 +1,12 @@
 ﻿using Contra_Filé.Domain.Common;
 using Contra_Filé.Domain.Helpers;
 
-namespace Contra_Filé.Domain;
+namespace Contra_Filé.Domain.Entities;
 
 public class User : BaseEntity
 {
+    private User() { }
+    
     public string Name { get; private set; }
     public string Email { get; private set; }
     public string Password { get; private set; }
