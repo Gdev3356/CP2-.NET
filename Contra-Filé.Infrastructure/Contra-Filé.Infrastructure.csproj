@@ -9,6 +9,16 @@
 
     <ItemGroup>
       <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.14" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Persistence\Configurations\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Contra-Filé.Domain\Contra-Filé.Domain.csproj" />
     </ItemGroup>
 
 </Project>
