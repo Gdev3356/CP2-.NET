@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5yZJ8XUUiQM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gkost\\Documents\\2TDSPG\\Contra-Filé CP2\\Contra-Filé.Domain\\Contra-Filé.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gkost\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
