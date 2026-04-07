@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contra-Filé.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4e0eba5bb52829a0a8a676fd8602c79deea96c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92a32d35bffc2dc02f7f1a206a0c2f60d591026d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contra-Filé.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contra-Filé.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
